@@ -1,0 +1,35 @@
+{
+  "name": "line_chat_project",
+  "version": "1.0.0",
+  "description": "line chat wrapper. In this nodejs API I am creating the interface between line and reactjs app using line-bot-sdk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "LineBot",
+    "Heroku",
+    "line-app",
+    "reactjs"
+  ],
+  "author": "Maqsood Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^6.1.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "socket.io": "^2.1.1",
+    "websocket": "^1.0.26",
+    "ws": "^6.0.0"
+  },
+  "engines": {
+    "node": "8.11.1"
+  }
+}
